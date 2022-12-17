@@ -1,0 +1,28 @@
+{
+    "name": "pokus",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "hra na postřeh": "github:frankf-kvd/hra-na-posteh#e0aff174c3eaa4411d7843a25ba93727a845619c",
+        "KnightRider": "github:frankf-kvd/knightrider#e9d6c7d5d07795ea9c88d0e78c2a0171198b98d6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
